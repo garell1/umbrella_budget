@@ -1,0 +1,91 @@
+ CATEGORIES={
+        "DZIECKO": "Dzieci",
+        "JEDZENIE": "Jedzenie",
+        "INWESTYCJE": "Inwestycje",
+        "OSZCZĘDNOŚCI": "Oszczędności",
+        "PODATKI": "Podatki",
+        "KREDYTY": "Kredyty",
+        "PRAWNE": "Prawne",
+        "ROZRYWKA": "Rozrywka",
+        "TRANSPORT": "Transport",
+        "UBEZPIECZENIE": "Ubezpieczenie",
+        "DOM": "Dom",
+        "WYDATKI OSOBISTE": "Wydatki osobiste",
+        "ZWIERZĘTA": "Zwierzęta",
+        "FIRMA": "Firma"
+    }
+
+SUBCATEGORIES={
+Dziecko
+    Ubrania
+    Artykuły szkolne
+    Czesne
+    Posiłek w szkole
+    Zabawki
+    Atrakcje
+Jedzenie
+    Artykuły spożywcze
+    Restauracje
+Inwestycje
+    Fundusz Emerytalny
+    Fundusz Inwestycyjny
+    Portfel Inwestycyjny
+Oszczędności
+    Konto Oszczędnościowe
+    Lokaty
+    Obligacje skarbowe
+Firma
+    PIT
+    VAT
+    ZUS
+    Księgowość
+Kredyty
+    Karta Kredytowa
+    Kredyt Hipoteczny
+    Kredyt Konsumencki
+    Kredyt Inwestycyjny
+Prawne
+    Adwokat
+    Opłaty Sądowe
+Prezenty
+    Mikołaj
+    Zajączek
+    Boże Narodzenie
+Rozrywka
+    Kino
+    Koncerty
+    Teatr
+    Opera
+    Wyjścia
+Transport
+    Paliwo
+    Badania Techniczne
+    Serwis
+    Konserwacja
+Ubezpieczenie
+    Dom
+    Zdrowie
+    Samochód
+    Życie
+Dom
+    Czyńsz
+    Telefon
+    Energia Elektryczna
+    Gaz
+    Woda i Ścieki
+    Telewizja
+    Muzyka
+    Wywóz Śmieci
+    Naprawy
+    Materiały
+Osobiste
+    Fryzjer
+    Artykuły medyczne
+    Zajęcia Dodatkowe
+    Rozwój
+Zwierzęta:
+    Jedzenie
+    Weterynarz
+    Pięlęgnacja
+    Zabawki
+}
