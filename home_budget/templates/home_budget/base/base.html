@@ -5,9 +5,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{% block title %}{% endblock title %}</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="">
+    {% block css_style %}{% endblock css_style %}
 </head>
 <body>
+   <header id="main-header">
+    <nav><a href="/summary" id="main-logo"><img src="" alt=""></a></nav>
+    <h1>Umbrella Budget</h1>
+   </header> 
+   <main id="main_content">
+    {% block main_content %}{% endblock main_content %}
+   </main>
+   <footer id="main-footer">
     
+   </footer>
 </body>
 </html>
