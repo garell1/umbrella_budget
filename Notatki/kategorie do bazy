@@ -15,14 +15,27 @@
         "FIRMA": "Firma"
     }
 
+Housing / Dom
+DOM, TRANSPORT, UBEZPIECZENIA
+
+
+FINANSE_MGMT/Finanse Osobiste i Majątek
+Finanse: KREDYTY, PODATKI, PRAWNE
+FIRMA
+
+LIVING_COST/Utrzymanie i Wydatki bieżace
+Życie codzienne: JEDZENIE, WYDATKI OSOBISTE
+ROZRYWKA
+
+FAMILY_CARE Rodzina i opieka
+Rodzina / Dzieci
+
+Zwierzęta
+
+
 SUBCATEGORIES={
 Dziecko
-    Ubrania
-    Artykuły szkolne
-    Czesne
-    Posiłek w szkole
-    Zabawki
-    Atrakcje
+    
 Jedzenie
     Artykuły spożywcze
     Restauracje
@@ -56,7 +69,7 @@ Rozrywka
     Koncerty
     Teatr
     Opera
-    Wyjścia
+    Atrakcje
 Transport
     Paliwo
     Badania Techniczne
@@ -79,6 +92,11 @@ Dom
     Naprawy
     Materiały
 Osobiste
+    Artykuły szkolne
+    Czesne
+    Posiłek w szkole
+    Zabawki
+    Ubrania
     Fryzjer
     Artykuły medyczne
     Zajęcia Dodatkowe

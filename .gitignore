@@ -146,6 +146,8 @@ venv.bak/
 
 #Directorie with secrets
 secrets/
+#Note directory
+Notatki/
 
 # Spyder project settings
 .spyderproject
