@@ -149,6 +149,9 @@ secrets/
 #Note directory
 Notatki/
 
+#Data base
+db.sqlite3
+
 # Spyder project settings
 .spyderproject
 .spyproject

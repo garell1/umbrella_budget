@@ -1,0 +1,37 @@
+{% extends "home_budget/base/base.html" %}
+{% load static %}
+
+{% block title %}
+    Posumowanie Month-Year
+{% endblock title %}
+
+{% block main_content %}
+    <h2>
+        Podsumowanie MIESIĄĆ-ROK
+    </h2>
+    <table>
+        <thead>
+            <tr>
+                <td>Kategoria</td>
+                <td>Podkategoria</td>
+                <td>Przewidywany Wydatek</td>
+                <td>Rzeczywisty Wydatek</td>
+                <td>Komentarz</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for expense in expenses  %}
+                <tr>
+                    <td>{{ expense.category }}</td>
+                    <td>{{ expense.subcategory }}</td>
+                    <td>{{ expense.provide_amount }}</td>
+                    <td>{{ expense.real_amount }}</td>
+                    <td>{{ expense.comment}}</td>
+                </tr>
+            {% empty %}
+                <tr><td colspan="3"> Brak wydatków w tej kategorii</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock main_content %}

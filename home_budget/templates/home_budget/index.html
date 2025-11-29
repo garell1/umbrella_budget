@@ -9,4 +9,13 @@
     <link rel="stylesheet" href="">
 {% endblock css_style %}
 
-{% block main_content %}{% endblock main_content %}
+{% block header_content %}
+    <a href="{% url 'housing' %}" target="content_frame">Domowe</a>
+    <a href="{% url 'finanse' %}" target="content_frame">Finanse</a>
+    <a href="{% url 'living_cost' %}" target="content_frame">Koszty Życia</a>
+    <a href="{% url 'family_care' %}" target="content_frame">Utrzymanie rodziny</a>
+{% endblock header_content %}
+
+{% block main_content %}
+    <iframe name="content_frame" src="{% url 'summary' %}" frameborder="0"></iframe>
+{% endblock main_content %}

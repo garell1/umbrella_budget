@@ -1,0 +1,92 @@
+{% extends "home_budget/base/base.html" %}
+{% load static %}
+
+{% block title %}
+    Finanse
+{% endblock title %}
+
+{% block css_style %}
+    <style> td { border: 1px solid black; } </style>
+{% endblock css_style %}
+
+{% block main_content %}
+    <h2>
+       Finanse Osobiste i Majatek 
+    </h2>
+    <table>
+        <thead>
+            <tr>
+                <td>Kategoria</td>
+                <td>Podkategoria</td>
+                <td>Przewidywany Wydatek</td>
+                <td>Rzeczywisty Wydatek</td>
+                <td>Komentarz</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for expense in house  %}
+                <tr>
+                    <td>{{ expense.category }}</td>
+                    <td>{{ expense.subcategory }}</td>
+                    <td>{{ expense.provide_amount }}</td>
+                    <td>{{ expense.real_amount }}</td>
+                    <td>{{ expense.comment}}</td>
+                </tr>
+            {% empty %}
+                <tr><td colspan="3"> Brak wydatków w tej kategorii</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Kategoria</td>
+                <td>Podkategoria</td>
+                <td>Przewidywany Wydatek</td>
+                <td>Rzeczywisty Wydatek</td>
+                <td>Komentarz</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for expense in transport  %}
+                <td>
+                    <td>{{ expense.category }}</td>
+                    <td>{{ expense.subcategory }}</td>
+                    <td>{{ expense.provide_amount }}</td>
+                    <td>{{ expense.real_amount }}</td>
+                    <td>{{ expense.comment}}</td>
+                </td>
+            {% empty %}
+                <tr><td colspan="3"> Brak wydatków w tej kategorii</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <td>Kategoria</td>
+                <td>Podkategoria</td>
+                <td>Przewidywany Wydatek</td>
+                <td>Rzeczywisty Wydatek</td>
+                <td>Komentarz</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for expense in transport  %}
+                <td>
+                    <td>{{ expense.category }}</td>
+                    <td>{{ expense.subcategory }}</td>
+                    <td>{{ expense.provide_amount }}</td>
+                    <td>{{ expense.real_amount }}</td>
+                    <td>{{ expense.comment}}</td>
+                </td>
+            {% empty %}
+                <tr><td colspan="3"> Brak wydatków w tej kategorii</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock main_content %}
