@@ -1,0 +1,10 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindConfig": "./theme/static_src/tailwind.config.js",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": { "parser": "html" }
+    }
+  ]
+}
